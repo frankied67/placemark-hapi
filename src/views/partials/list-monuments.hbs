@@ -1,0 +1,33 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Monument Name</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each location.monuments}}
+    <tr>
+      <td>
+        {{title}}
+      </td>
+      <td>
+        {{latitude}}
+      </td>
+      <td>
+        {{longitude}}
+      </td>
+      <td>
+        {{category}}
+      </td>
+       <td>
+        <a href="/location/{{../location._id}}/deletemonument/{{_id}}" class="ui icon button">
+          <i class="fas fa-trash"></i>
+        </a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

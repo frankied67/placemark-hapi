@@ -1,0 +1,20 @@
+<form class="box" action="/location/{{location._id}}/addmonument" method="POST">
+  <label>Enter Monument Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Monument Name" name="title">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Latitude" name="latitude">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Longitude" name="longitude">
+      </div>
+      <div class="field">
+        <input class="input" type="text"placeholder="Category" name="category">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Add Monument</button>
+</form>

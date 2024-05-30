@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "b6823be5-d61a-4439-b75f-e9be0e8e0eac"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "0616c922-5130-4f46-8bc8-3efd144d23b1"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "507f311b-d6ec-4122-99e9-ca5993665529"
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "2b100a60-9093-4ea8-95ca-cda589535418"
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "0325c0c4-69b4-4821-95cc-c6ba8142c498"
+    }
+  ],
+  "locations": [],
+  "monuments": []
+}
